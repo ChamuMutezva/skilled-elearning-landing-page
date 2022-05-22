@@ -1,0 +1,21 @@
+@use './base';
+@use './utils';
+@use './components';
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.app {
+    padding: 1rem;
+
+    @include utils.mQ(38.75rem) {
+        padding-block: 1.5rem;
+        padding-inline: 2.5rem;
+    }
+    @include utils.mQ(61.25rem) {
+        padding-block: 2.42rem;
+        padding-inline: 10.36rem;
+    }
+}

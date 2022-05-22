@@ -1,7 +1,6 @@
 //import { useEffect, useState } from 'react';
 //import logo from './logo.svg';
 import Header from './header/Header';
-import './App.css';
 
 function App() {  
 

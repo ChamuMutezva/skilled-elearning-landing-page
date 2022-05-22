@@ -1,0 +1,52 @@
+@use 'sass:color';
+@use '../base';
+@use '../utils';
+
+.btn-logo {
+
+    &:focus,
+    &:hover {
+        cursor: pointer;
+        outline: dashed currentColor;
+        outline-offset: 0.35em;
+    }
+}
+
+.btn {
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    background-color: base.$clr-almost-black;
+    color: #fff;
+    display: inline-flex;
+    font-size: base.$fs-16;
+    justify-content: center;
+    line-height: 1.75;
+    min-width: 10ch;
+    min-height: 48px;
+    padding: 0.25em 0.75em;
+    text-align: center;
+    transition: 220ms all ease-in-out;
+    text-decoration: none;
+    z-index: 1;
+
+    &:hover,
+    &:active {
+        background-color: scale-color(base.$clr-mid-blue, $lightness: -20%);
+    }
+
+    &:focus {
+        outline-style: solid;
+        outline-color: transparent;
+        box-shadow: 0 0 0 4px scale-color(base.$clr-mid-blue, $lightness: -40%);
+    }
+
+    @include utils.mQ(61.25rem) {
+        font-size: base.$fs-18;
+        min-height: 56px;
+    }
+}
+
+.btn-pink {
+    background-image: base.$clr-grad-pink;
+}
