@@ -8,7 +8,8 @@
     @include utils.mQ(38.75rem) {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: last baseline;
+        padding-block-start: 3rem;
     }
 
 }
@@ -35,6 +36,12 @@
         transform: scale(2.25);
         right: -10rem;
     }
+
+    @include utils.mQ(61.25rem) {
+        right: -16rem;
+        top: -1rem;
+    }
+
 }
 
 .hero-title {

@@ -1,0 +1,8 @@
+@use 'sass:color';
+@use '../base';
+@use '../utils';
+
+.app-main {
+    @include utils.mQ(38.75rem) {}
+
+}

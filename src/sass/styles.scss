@@ -1,6 +1,7 @@
 @use './base';
 @use './utils';
 @use './components';
+@use './layouts';
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -13,9 +14,12 @@ body {
     @include utils.mQ(38.75rem) {
         padding-block: 1.5rem;
         padding-inline: 2.5rem;
+        max-width: 69.375rem;
+        margin-inline: auto;
     }
+
     @include utils.mQ(61.25rem) {
         padding-block: 2.42rem;
-        padding-inline: 10.36rem;
+        // padding-inline: 10.36rem;
     }
 }
