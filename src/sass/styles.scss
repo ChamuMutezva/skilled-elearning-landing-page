@@ -10,7 +10,8 @@ body {
 
 .app {
     padding: 1rem;
-
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+   
     @include utils.mQ(38.75rem) {
         padding-block: 1.5rem;
         padding-inline: 2.5rem;

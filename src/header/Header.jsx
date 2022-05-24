@@ -40,20 +40,34 @@ function Header() {
                     <Button bgPink={true} />
                 </div>
                 <div className="hero-img-container">
-                    
-                        <picture>
-                            <source media="(min-width: 61.25rem)"
-                                srcSet={`${Desktop2xWebp}, ${Desktop2xPng}, ${DesktopWebp},  ${DesktopPng} `}
-                            />
-                            <source media="(min-width: 38.75rem)"
-                                srcSet={`${Tablet2xWebp}, ${Tablet2xPng}, ${TabletWebp},  ${TabletPng} `}
-                            />
-                            <img className="hero-img" srcSet={`${Mobile2xWebp}, ${Mobile2xPng}, ${MobileWebp} `}
-                                src={`${MobilePng}`}
-                                alt=""
-                            />
-                        </picture>
-                    
+
+                    <picture>
+
+                        <source media="(min-width: 61.25rem)" type="image/webp"
+                            srcSet={`${DesktopWebp}, ${Desktop2xWebp} 2x`}
+                        />
+
+                        <source media="(min-width: 61.25rem)"
+                            srcSet={`${DesktopPng}, ${Desktop2xPng} 2x`}
+                        />
+
+                        <source media="(min-width: 38.75rem)"
+                            srcSet={`${TabletWebp}, ${Tablet2xWebp} 2x`}
+                        />
+
+                        <source media="(min-width: 38.75rem)"
+                            srcSet={`${TabletPng}, ${Tablet2xPng} 2x`}
+                        />
+
+                        <img className="hero-img"
+                            type="image/webp"
+                            srcSet={`${MobileWebp}, ${Mobile2xWebp} 2x, ${Mobile2xPng} 2x `}
+                            src={`${MobilePng}`}
+                            alt=""
+                        />
+
+                    </picture>
+
                 </div>
             </div>
         </header>

@@ -1,15 +1,14 @@
 //import { useEffect, useState } from 'react';
 //import logo from './logo.svg';
 import Header from './header/Header';
+import Main from './main/Main'
 
-function App() {  
+function App() {
 
   return (
     <div className="app">
       <Header />
-      <main className="app-main">
-        <h2>main</h2>
-      </main>
+      <Main />
       <footer>
         <footer className="app-footer">
           <h3>footer</h3>

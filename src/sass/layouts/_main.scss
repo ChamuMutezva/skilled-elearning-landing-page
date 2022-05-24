@@ -4,5 +4,59 @@
 
 .app-main {
     @include utils.mQ(38.75rem) {}
+}
 
+.secondary-title {
+    font-size: base.$fs-24;
+    line-height: 1.3;
+    font-weight: 800;
+    border-radius: 10px;
+    background-image: base.$clr-grad-pink;
+    color: base.$clr-white;
+    padding-block: 1.75rem;
+    padding-inline: 1.5rem;
+}
+
+.main {
+    margin-block-start: 0.2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+
+    @include utils.mQ(38.75rem) {
+        margin-block-start: 8.2rem;
+    }
+
+    @include utils.mQ(61.25rem) {
+        margin-block-start: 12rem;
+    }
+}
+
+.product {
+    padding-inline: 1.5rem;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    padding-block-end: 1.8rem;
+}
+
+.product-title {
+    font-size: base.$fs-20;
+    font-weight: 800;
+    line-height: 1.26;
+    margin-block-start: -1rem;
+}
+
+.product-description {
+    font-size: base.$fs-16;
+    font-weight: 500;
+    line-height: 1.625;
+    margin-block-start: 1rem;
+    color: scale-color(base.$clr-mid-gray, $lightness: -10%);
+    margin-block-end: 1rem;
+}
+
+.product-img {
+    position: relative;
+    top: -2rem;
 }

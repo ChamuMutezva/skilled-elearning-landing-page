@@ -3,6 +3,7 @@
 @use '../utils';
 
 .btn-logo {
+    transition: 220ms all ease-in-out;
 
     &:focus,
     &:hover {
@@ -49,4 +50,28 @@
 
 .btn-pink {
     background-image: base.$clr-grad-pink;
+}
+
+.btn-text-pink {
+    color: base.$clr-bright-orange;
+    background-color: inherit;
+    border: none;
+    box-shadow: none;
+    font-weight: 700;
+    font-size: base.$fs-18;
+
+    &:hover,
+    &:active {
+        color: scale-color(base.$clr-bright-orange, $lightness: 40%);
+        background-color: transparent;
+        outline: dashed currentColor;
+        outline-offset: -0.35em;
+    }
+
+    &:focus {
+        outline: dashed currentColor;
+        outline-offset: -0.35em;      
+        color: scale-color(base.$clr-bright-orange, $lightness: 50%);
+        box-shadow: none;
+    }
 }
