@@ -48,8 +48,15 @@
     }
 }
 
-.btn-pink {
+.btn-bg-pink {
     background-image: base.$clr-grad-pink;
+
+    &:hover,
+    &:focus,
+    &:active {
+        outline: dashed currentColor;
+        outline-offset: -0.35em;
+    }
 }
 
 .btn-text-pink {
@@ -70,8 +77,19 @@
 
     &:focus {
         outline: dashed currentColor;
-        outline-offset: -0.35em;      
+        outline-offset: -0.35em;
         color: scale-color(base.$clr-bright-orange, $lightness: 50%);
         box-shadow: none;
+    }
+}
+
+.btn-footer {
+    background-image: base.$clr-grad-blue-pink;
+
+    &:hover,
+    &:focus,
+    &:active {
+        outline: dashed currentColor;
+        outline-offset: -0.35em;
     }
 }

@@ -8,7 +8,7 @@ import Button from '../components/Button'
 
 function Main() {
     return (
-        <div className="main">
+        <div className="main container">
 
             <div className="secondary">
                 <h2 className="secondary-title">

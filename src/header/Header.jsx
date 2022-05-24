@@ -20,7 +20,7 @@ import MobilePng from "../assets/image-hero-mobile.png"
 
 function Header() {
     return (
-        <header className="header">
+        <header className="header container">
             <nav className="nav flex">
                 <a href="/" className="btn-logo">
                     <img src={DarkLogo} alt="" />
@@ -37,7 +37,7 @@ function Header() {
                         knowledge you need to live the life you want.
                     </p>
 
-                    <Button bgPink={true} />
+                    <Button btnBgPink={true} />
                 </div>
                 <div className="hero-img-container">
 

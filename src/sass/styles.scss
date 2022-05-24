@@ -9,18 +9,31 @@ body {
 }
 
 .app {
-    padding: 1rem;
+    position: relative;
+    padding-block-start: 1rem;
     background-image: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
-   
+
     @include utils.mQ(38.75rem) {
-        padding-block: 1.5rem;
-        padding-inline: 2.5rem;
-        max-width: 69.375rem;
+        padding-block-start: 1.5rem;
+        //  padding-inline: 2.5rem;
+
         margin-inline: auto;
     }
 
     @include utils.mQ(61.25rem) {
-        padding-block: 2.42rem;
-        // padding-inline: 10.36rem;
+        padding-block-start: 2.42rem;
+    }
+}
+
+.container {
+    margin-inline: 1rem;
+
+    @include utils.mQ(38.75rem) {
+        margin-inline: 2.5rem;      
+    }
+
+    @include utils.mQ(61.25rem) {
+        margin-inline: auto;
+        max-width: 69.375rem;
     }
 }
