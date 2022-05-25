@@ -8,7 +8,8 @@
     @include utils.mQ(38.75rem) {
         display: flex;
         justify-content: space-between;
-        align-items: last baseline;
+        align-items: center;
+       // align-items: last baseline;
         padding-block-start: 3rem;
     }
 
@@ -34,8 +35,9 @@
     position: relative;
 
     @include utils.mQ(38.75rem) {
-        transform: scale(2.25); 
+        transform: scale(2.1); 
         right: -10rem;
+        top: -5.5rem;
     }
 
     @include utils.mQ(61.25rem) {

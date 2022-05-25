@@ -2,13 +2,18 @@
 @use '../base';
 @use '../utils';
 
-.footer {   
+.footer {
     margin-block-start: 3rem;
-    background-color: base.$clr-almost-black;  
+    background-color: base.$clr-almost-black;
+
+    @include utils.mQ(38.75rem) {
+        margin-block-start: 5rem;
+    }
 }
+
 .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
     padding-block: 2.4rem;
 }

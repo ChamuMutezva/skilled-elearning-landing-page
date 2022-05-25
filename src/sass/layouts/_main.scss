@@ -28,8 +28,8 @@
     gap: 3rem;
 
     @include utils.mQ(38.75rem) {
-        margin-block-start: 8.2rem;
-        gap: 3rem 1rem;
+        margin-block-start: 7rem;
+        gap: 4rem 1rem;
     }
 
     @include utils.mQ(61.25rem) {
