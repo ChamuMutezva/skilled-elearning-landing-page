@@ -19,6 +19,11 @@
     color: base.$clr-white;
     padding-block: 1.75rem;
     padding-inline: 1.5rem;
+
+    @include utils.mQ(61.25rem) {
+        font-size: base.$fs-32;
+        padding-inline-end: 2rem;
+    }
 }
 
 .main {
@@ -33,7 +38,7 @@
     }
 
     @include utils.mQ(61.25rem) {
-        margin-block-start: 12rem;
+        margin-block-start: 16rem;
     }
 }
 
@@ -50,6 +55,9 @@
     font-weight: 800;
     line-height: 1.26;
     margin-block-start: -1rem;
+    @include utils.mQ(61.25rem) {
+        font-size: base.$fs-24;
+    }
 }
 
 .product-description {

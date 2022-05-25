@@ -16,12 +16,11 @@ body {
     @include utils.mQ(38.75rem) {
         padding-block-start: 1.5rem;
         //  padding-inline: 2.5rem;
-
         margin-inline: auto;
     }
 
     @include utils.mQ(61.25rem) {
-        padding-block-start: 2.42rem;
+        // padding-block-start: 2.42rem;
     }
 }
 
@@ -29,10 +28,14 @@ body {
     margin-inline: 1rem;
 
     @include utils.mQ(38.75rem) {
-        margin-inline: 2.5rem;      
+        margin-inline: 2.5rem;
     }
 
     @include utils.mQ(61.25rem) {
+        margin-inline: 3.5rem;
+    }
+
+    @include utils.mQ(71.785rem) {
         margin-inline: auto;
         max-width: 69.375rem;
     }
