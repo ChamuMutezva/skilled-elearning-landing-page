@@ -1,6 +1,7 @@
 import React from 'react'
 import DarkLogo from '../assets/logo-dark.svg'
 import Button from '../components/Button'
+
 import Desktop2xWebp from "../assets/image-hero-desktop@2x.webp"
 import Desktop2xPng from "../assets/image-hero-desktop@2x.png"
 import DesktopWebp from "../assets/image-hero-desktop.webp"
@@ -42,26 +43,28 @@ function Header() {
                 <div className="hero-img-container">
 
                     <picture>
-
+                        {/*Desktop images */}
                         <source media="(min-width: 61.25rem)" type="image/webp"
                             srcSet={`${DesktopWebp}, ${Desktop2xWebp} 2x`}
                         />
-
                         <source media="(min-width: 61.25rem)"
                             srcSet={`${DesktopPng}, ${Desktop2xPng} 2x`}
                         />
 
-                        <source media="(min-width: 38.75rem)"
+                        {/*tablet images */}
+                        <source media="(min-width: 38.75rem)" type="image/webp"
                             srcSet={`${TabletWebp}, ${Tablet2xWebp} 2x`}
                         />
-
                         <source media="(min-width: 38.75rem)"
                             srcSet={`${TabletPng}, ${Tablet2xPng} 2x`}
                         />
 
+                        {/*Mobile images */}
+                        <source type="image/webp"
+                            srcSet={`${MobileWebp}, ${Mobile2xWebp} 2x`}
+                        />
                         <img className="hero-img"
-                            type="image/webp"
-                            srcSet={`${MobileWebp}, ${Mobile2xWebp} 2x, ${Mobile2xPng} 2x `}
+                            srcSet={`${MobilePng}, ${Mobile2xPng} 2x`}
                             src={`${MobilePng}`}
                             alt=""
                         />

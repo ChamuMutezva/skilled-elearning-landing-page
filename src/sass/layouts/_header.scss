@@ -79,4 +79,8 @@
     @include utils.mQ(61.25rem) {
         font-size: base.$fs-18;
     }
+
+    @include utils.mQ(71.785rem) { 
+        padding-inline-end: 12rem;
+    }
 }
