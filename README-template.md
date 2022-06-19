@@ -27,11 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![mobile view](./src/assets/mobile-view.png)
+![tablet view](./src/assets/tablet-view.png)
+![desktop view 1349](./src/assets/desktop-view1349.png)
+![desktop view 1440](./src/assets/desktop-view1440.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Frontend Mentor Challenge link:](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q)
 - Live Site URL: [Skilled elearning landing page](https://skilled-elearning-landing-page.netlify.app)
 
 ## My process
@@ -44,6 +46,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com/)
 
 ### What I learned
 
@@ -54,9 +57,8 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- Website - [Chamu Mutezva](https://github.com/ChamuMutezva)
+- Frontend Mentor - [@ChamuMutezva](https://www.frontendmentor.io/profile/ChamuMutezva)
+- Twitter - [@ChamuMutezva](https://twitter.com/ChamuMutezva)
 
 ## Acknowledgments
