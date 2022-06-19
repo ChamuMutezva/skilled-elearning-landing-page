@@ -7,7 +7,7 @@ import Button from "../components/Button";
 
 function Main() {
     return (
-        <div className="main container">
+        <main className="main container">
             <div className="secondary">
                 <h2 className="secondary-title">
                     Check out our most popular courses!
@@ -68,7 +68,7 @@ function Main() {
                 </p>                
                 <Button textPink={true}/>              
             </div>
-        </div>
+        </main>
     )
 }
 

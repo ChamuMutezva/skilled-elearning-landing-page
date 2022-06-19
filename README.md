@@ -33,8 +33,8 @@ Users should be able to:
 ![desktop view 1440](./src/assets/desktop-view1440.png)
 ### Links
 
-- [Frontend Mentor Challenge link:](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q)
-- Live Site URL: [Skilled elearning landing page](https://skilled-elearning-landing-page.netlify.app)
+-  [Frontend Mentor Challenge link:](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q)
+-  Live Site URL: [Skilled elearning landing page](https://skilled-elearning-landing-page.netlify.app)
 
 ## My process
 
