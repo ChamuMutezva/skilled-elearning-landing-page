@@ -7,6 +7,7 @@ function Footer() {
             <div className="footer-container container">
                 <a href="/" className="btn-logo">
                     <img src={LightLogo} alt="" />
+                    <span className="sr-only">welcome to skilled learning</span>
                 </a>
                 <Button btnFooter={true} />
             </div>

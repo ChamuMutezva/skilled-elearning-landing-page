@@ -19,6 +19,7 @@ function Header() {
             <nav className="nav flex">
                 <a href="/" className="btn-logo">
                     <img src={DarkLogo} alt="" />
+                    <span className="sr-only">welcome to skilled learning</span>
                 </a>
                 <Button />
             </nav>
