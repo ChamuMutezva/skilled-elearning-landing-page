@@ -1,6 +1,5 @@
-import React from 'react'
-import LightLogo from '../assets/logo-light.svg'
-import Button from '../components/Button'
+import LightLogo from "../assets/logo-light.svg";
+import Button from "../components/Button";
 
 function Footer() {
     return (
@@ -9,7 +8,6 @@ function Footer() {
                 <a href="/" className="btn-logo">
                     <img src={LightLogo} alt="" />
                 </a>
-
                 <Button btnFooter={true} />
             </div>
         </footer>
